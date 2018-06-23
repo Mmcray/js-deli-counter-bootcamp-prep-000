@@ -18,7 +18,7 @@ function currentLine(katzDeli) {
   var i;
   for (i = 0; i <= line; i++)
   if (line >= i) {
-    return("The line is currently: " +(i + 1) + ". " + katzDeli.shift() + ", 2. " + katzDeli.shift() + ", 3. " + katzDeli.shift());
+    return("The line is currently: " +(i + 1) + ". " + katzDeli[i] + ", 2. " + katzDeli.shift() + ", 3. " + katzDeli.shift());
   }
   else {
     return("The line is currently empty.");
